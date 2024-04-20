@@ -26,8 +26,8 @@ Feel free to explore this repository, provide feedback, and learn alongside me. 
 
 ## **What is C++:**  
    C++ is a programming language that is used to create computer programs. It’s like a toolset that developers use to build software, similar to how a carpenter uses tools to build a house. It’s known for its speed and efficiency, and is commonly used in areas like video games and real-time systems.
-   **Benefits of C++:**
-     C++ has several benefits that make it a popular choice among programmers:
+   
+**Benefits of C++:** C++ has several benefits that make it a popular choice among programmers:
 
 `Performance`: C++ is known for its efficiency and fast execution. It’s often chosen for applications where performance is critical.
 `Compatibility with C`: Since C++ is an extension of C, it is highly compatible with C. If there is a valid C     application, it is compatible with C++.
