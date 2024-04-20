@@ -33,6 +33,6 @@ Feel free to explore this repository, provide feedback, and learn alongside me. 
 `Compatibility with C`: Since C++ is an extension of C, it is highly compatible with C. If there is a valid C     application, it is compatible with C++.
 `Object-Oriented Programming`: C++ supports object-oriented programming, which allows for better organization and     reusability of code.
 `Low-Level Manipulation`: C++ allows for low-level programming tasks, like memory manipulation, which is necessary in   some cases.
-`Large Community and Libraries`: C++ has a large and mature ecosystem of libraries and frameworks, which can be used to     accelerate development and simplify tasks.
-`Portability`: Programs written in C++ can often be executed on other platforms without any modifications3.
-    Use Cases: C++ finds a wide range of applications, including video games, operating systems, embedded systems, and real-time mathematical simulations.
+`Large Community and Libraries`: C++ has a large and mature ecosystem of libraries and frameworks, which can be used to accelerate development and simplify tasks.
+`Portability`: Programs written in C++ can often be executed on other platforms without any modifications.
+`Use Cases`: C++ finds a wide range of applications, including video games, operating systems, embedded systems, and real-time mathematical simulations.
