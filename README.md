@@ -106,3 +106,26 @@ Feel free to explore this repository, provide feedback, and learn alongside me. 
          return 0; // Successful execution
      }
      ```
+
+## My First C++ Program
+Here's a basic C++ program which prints Hello World messages.
+Let’s break down the code:
+
+1: **Include Statements**:
+`#include <iostream>`: This line includes the iostream library, which allows input/output operations. It provides functionality for displaying text on the console.
+
+2: **Namespace Declaration**:
+`using namespace std;`: By using the std namespace, we can directly access standard C++ functions and objects without prefixing them with `std::`.
+
+3: **Main Function**:
+`int main()`: The main function is the entry point of the program. Execution starts here.
+Inside the curly braces `{ ... }`, we have the program’s logic.
+
+4: **Output Statements**:
+`cout << "Hello World..." << endl;`: This line prints “Hello World…” to the console. The `<<` operator is used for output.
+`endl` inserts a new line after printing.
+`cout << "This is my first program in C++";`: This line prints “This is my first program in C++” to the console without a new line.
+
+5: **Return Statement**:
+`return 0;`: Indicates successful execution of the program. The value 0 is conventionally used to indicate success.
+
