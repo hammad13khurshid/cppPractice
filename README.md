@@ -129,3 +129,65 @@ Inside the curly braces `{ ... }`, we have the program’s logic.
 5: **Return Statement**:
 `return 0;`: Indicates successful execution of the program. The value 0 is conventionally used to indicate success.
 
+
+## Input/Output: 
+
+This program demonstrates the concept of taking inputs and displaying them in C++. Here's a breakdown of what each line does:
+
+```cpp
+#include <iostream>     
+```
+This line includes the iostream library which allows for input/output operations.
+
+```cpp
+using namespace std;    
+```
+This line tells the compiler to use the standard (std) namespace.
+
+```cpp
+int main()              
+```
+This line defines the main function. Execution of the program begins here.
+
+```cpp
+string name;        
+```
+This line declares a string variable 'name' to store the user's name.
+
+```cpp
+int age;            
+```
+This line declares an integer variable 'age' to store the user's age.
+
+```cpp
+cout<<"Please enter your name: ";    
+```
+This line prompts the user to enter their name.
+
+```cpp
+cin>>name;          
+```
+This line takes the user's name as input and stores it in the 'name' variable.
+
+```cpp
+cout<<"please enter your age: ";     
+```
+This line prompts the user to enter their age.
+
+```cpp
+cin>>age;           
+```
+This line takes the user's age as input and stores it in the 'age' variable.
+
+```cpp
+cout<<"Your name is:"<<name<<" and you are "<<age<<" years old."<<endl;    
+```
+This line prints the user's name and age to the console.
+
+```cpp
+return 0;    
+```
+This line indicates that the program has run successfully and ends the main function.
+```
+
+``` ******************************** ```
