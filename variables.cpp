@@ -6,16 +6,16 @@ using namespace std;
 
 int main()
 {
-    string name = "Hammad Khurshid";
+    string name = "Hammad Khurshid";  //name is a variable
     //string is used to store combination of characters in one variable
 
-    int rollNo = 102;
+    int rollNo = 102;  // rollNo is a variable
     //int is used to store integer values like postive and negative numbers.
 
-    char group = 'A';
+    char group = 'A';   //group is a variable
     //char is used to store a single character.
 
-    bool isMale = true;
+    bool isMale = true;   //isMale is a variable
     //bool is used to store true or false values.
 
     // Set boolalpha to display true/false instead of 1/0
