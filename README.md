@@ -129,65 +129,123 @@ Inside the curly braces `{ ... }`, we have the program’s logic.
 5: **Return Statement**:
 `return 0;`: Indicates successful execution of the program. The value 0 is conventionally used to indicate success.
 
-
 ## Input/Output: 
 
-This program demonstrates the concept of taking inputs and displaying them in C++. Here's a breakdown of what each line does:
+ This program demonstrates the concept of taking inputs and displaying them in C++. Here's a breakdown of what each line does:
+ 
+ ```cpp
+ #include <iostream>     
+ ```
+ This line includes the iostream library which allows for input/output operations.
+
+ ```cpp
+ using namespace std;    
+ ```
+ This line tells the compiler to use the standard (std) namespace.
+
+ ```cpp
+ int main()              
+ ```
+ This line defines the main function. Execution of the program begins here.
+
+ ```cpp
+ string name;        
+ ```
+ This line declares a string variable 'name' to store the user's name.
+
+ ```cpp
+ int age;            
+ ```
+ This line declares an integer variable 'age' to store the user's age.
 
 ```cpp
-#include <iostream>     
-```
-This line includes the iostream library which allows for input/output operations.
+ cout<<"Please enter your name: ";    
+ ```
+ This line prompts the user to enter their name.
+
+ ```cpp
+ cin>>name;          
+ ```
+ This line takes the user's name as input and stores it in the 'name' variable.
+
+  ```cpp
+  cout<<"please enter your age: ";     
+  ```
+  This line prompts the user to enter their age.
+  
+  ```cpp
+  cin>>age;           
+  ```
+  This line takes the user's age as input and stores it in the 'age' variable.
+  
+  ```cpp
+  cout<<"Your name is:"<<name<<" and you are "<<age<<" years old."<<endl;    
+  ```
+  This line prints the user's name and age to the console.
+  
+  ```cpp
+  return 0;    
+  ```
+  This line indicates that the program has run successfully and ends the main function.
+  ```
+  
+  ``` ******************************** 
+  ```
+
+## C++ Data Types
+
+In C++, data types specify the type of data that a variable can hold. Here are some commonly used data types in C++:
+
+### 1. `int`
+
+The `int` data type is used to store whole numbers. It typically requires **4 bytes** of memory space and ranges from **-2,147,483,648 to 2,147,483,647**.
 
 ```cpp
-using namespace std;    
+int age = 20;
 ```
-This line tells the compiler to use the standard (std) namespace.
+
+### 2. `float`
+
+The `float` data type is used to store decimal numbers with less range and accuracy. It typically requires **4 bytes** of memory space.
 
 ```cpp
-int main()              
+float height = 5.8;
 ```
-This line defines the main function. Execution of the program begins here.
+
+### 3. `double`
+
+The `double` data type is used to store decimal numbers with more range and accuracy. It typically requires **8 bytes** of memory space.
 
 ```cpp
-string name;        
+double weight = 56.150;
 ```
-This line declares a string variable 'name' to store the user's name.
+
+### 4. `char`
+
+The `char` data type is used to store a single character. It typically requires **1 byte** of memory space and ranges from **-128 to 127**.
 
 ```cpp
-int age;            
+char gender = 'M';
 ```
-This line declares an integer variable 'age' to store the user's age.
+
+### 5. `bool`
+
+The `bool` data type is used to store Boolean or logical values. It typically requires **1 byte** of memory space and can store either **true or false**.
 
 ```cpp
-cout<<"Please enter your name: ";    
+bool married = false;
 ```
-This line prompts the user to enter their name.
+
+### 6. `void`
+
+The `void` data type represents a valueless entity. It is used for those functions which do not return a value.
+
+### 7. `wchar_t`
+
+The `wchar_t` data type is used to store a wide-character type or multibyte-character type. It typically requires **2 bytes** of memory space and ranges from **0 to 65,535**.
 
 ```cpp
-cin>>name;          
-```
-This line takes the user's name as input and stores it in the 'name' variable.
-
-```cpp
-cout<<"please enter your age: ";     
-```
-This line prompts the user to enter their age.
-
-```cpp
-cin>>age;           
-```
-This line takes the user's age as input and stores it in the 'age' variable.
-
-```cpp
-cout<<"Your name is:"<<name<<" and you are "<<age<<" years old."<<endl;    
-```
-This line prints the user's name and age to the console.
-
-```cpp
-return 0;    
-```
-This line indicates that the program has run successfully and ends the main function.
+wchar_t letter = L'A';
 ```
 
-``` ******************************** ```
+Note: The memory sizes and ranges can vary depending on the compiler and the machine.
