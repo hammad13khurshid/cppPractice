@@ -249,3 +249,63 @@ wchar_t letter = L'A';
 ```
 
 Note: The memory sizes and ranges can vary depending on the compiler and the machine.
+
+
+ ## Operators in C++:
+
+  **What Are Operators?**
+  Operators are special symbols in C++ that allow you to perform various actions on variables and values.
+  Think of them as tools that help you manipulate data, just like how a calculator has buttons for addition, subtraction, and more.
+  **Types of Operators:**
+  C++ provides several types of operators, each serving a specific purpose. Here are some common ones:
+  
+
+1. **Arithmetic Operators**:
+   - `+` (Addition): Adds two values.
+     ```cpp
+     int sum = 5 + 3; // sum is 8
+     ```
+   - `-` (Subtraction): Subtracts one value from another.
+     ```cpp
+     int difference = 10 - 4; // difference is 6
+     ```
+   - `*` (Multiplication): Multiplies two values.
+     ```cpp
+     int product = 3 * 7; // product is 21
+     ```
+   - `/` (Division): Divides one value by another.
+     ```cpp
+     double quotient = 15.0 / 4; // quotient is 3.75
+     ```
+   - `%` (Modulus): Computes the remainder after division.
+     ```cpp
+     int remainder = 17 % 5; // remainder is 2
+     ```
+
+2. **Relational Operators**:
+   - `>` (Greater than): Checks if the left operand is greater than the right operand.
+     ```cpp
+     bool isGreater = 8 > 5; // true
+     ```
+   - `<` (Less than): Checks if the left operand is less than the right operand.
+     ```cpp
+     bool isLess = 3 < 10; // true
+     ```
+   - `>=` (Greater than or equal to): Checks if the left operand is greater than or equal to the right operand.
+     ```cpp
+     bool isGreaterOrEqual = 5 >= 5; // true
+     ```
+   - `<=` (Less than or equal to): Checks if the left operand is less than or equal to the right operand.
+     ```cpp
+     bool isLessOrEqual = 7 <= 3; // false
+     ```
+   - `==` (Equal to): Checks if the operands are equal.
+     ```cpp
+     bool isEqual = 6 == 6; // true
+     ```
+   - `!=` (Not equal to): Checks if the operands are not equal.
+     ```cpp
+     bool isNotEqual = 4 != 4; // false
+     ```
+
+Remember that these operators are fundamental building blocks for writing expressive and powerful C++ programs! 
