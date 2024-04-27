@@ -260,7 +260,7 @@ Note: The memory sizes and ranges can vary depending on the compiler and the mac
   C++ provides several types of operators, each serving a specific purpose. Here are some common ones:
   
 
-1. **Arithmetic Operators**:
+1. ### Arithmetic Operators:
    - `+` (Addition): Adds two values.
      ```cpp
      int sum = 5 + 3; // sum is 8
@@ -282,7 +282,7 @@ Note: The memory sizes and ranges can vary depending on the compiler and the mac
      int remainder = 17 % 5; // remainder is 2
      ```
 
-2. **Relational Operators**:
+2. ### Relational Operators:
    - `>` (Greater than): Checks if the left operand is greater than the right operand.
      ```cpp
      bool isGreater = 8 > 5; // true
