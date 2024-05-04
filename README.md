@@ -337,3 +337,35 @@ int main()
 ```
 
 In this `program`, we declare three `integer` `variables` `a`, `b`, and `c`, and `assign` them the `values` `5`, `10`, and `15` respectively. We then `calculate` the `result` of the `expression (a + b) / (c - b)` and `store` it in the variable `result`. Finally, we `print` the `result` to the `console`.
+
+
+## Compound Assignment Operators:
+In C++, compound assignment operators are used to update the value of a variable using binary operations. The general form is:
+
+`variable operator= expression;`
+
+Here, `operator` can be any `binary arithmetic operator` like `+`, `-`, `*`, `/`, `%`, etc. The expression is evaluated and combined with the variable using the `operator`, and the `result` is `stored` back in `variable`.
+
+**Here are some examples of compound assignment operators:**
+
+### Addition Assignment (+=): 
+Adds the right operand to the left operand and assigns the result to the left operand.
+`a += b; // Equivalent to a = a + b;`
+
+### Subtraction Assignment (-=): 
+Subtracts the right operand from the left operand and assigns the result to the left operand.
+`a -= b; // Equivalent to a = a - b;`
+
+### Multiplication Assignment (*=): 
+Multiplies the right operand with the left operand and assigns the result to the left operand.
+`a *= b; // Equivalent to a = a * b;`
+
+### Division Assignment (/=):
+Divides the left operand by the right operand and assigns the result to the left operand.
+`a /= b; // Equivalent to a = a / b;`
+
+### Modulus Assignment (%=): 
+Takes modulus using two operands and assigns the result to the left operand.
+`a %= b; // Equivalent to a = a % b;`
+
+These `operators` make the code more concise and easier to read. They also can potentially lead to performance improvements, as the variable is only evaluated once, as opposed to twice with the long form. 
