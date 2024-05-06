@@ -369,3 +369,44 @@ Takes modulus using two operands and assigns the result to the left operand.
 `a %= b; // Equivalent to a = a % b;`
 
 These `operators` make the code more concise and easier to read. They also can potentially lead to performance improvements, as the variable is only evaluated once, as opposed to twice with the long form. 
+
+## Bitwise Operators in C++
+Bitwise operators are used for performing operations on binary numbers. In C++, these operators work on the bit level. Here are the most commonly used bitwise operators:
+
+### 1. Bitwise AND (&)
+The bitwise AND operator compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+```cpp
+int a = 10;  // Binary: 1010
+int b = 4;   // Binary: 0100
+cout << "(a & b) = " << (a & b) << endl;  // Outputs 0 (0000 in binary)
+```
+
+### 2. Bitwise OR (|)
+The bitwise OR operator compares each bit of the first operand to the corresponding bit of the second operand. If either bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+```cpp
+int a = 10;  // Binary: 1010
+int b = 4;   // Binary: 0100
+cout << "(a | b) = " << (a | b) << endl;  // Outputs 14 (1110 in binary)
+```\
+
+### 3. Bitwise XOR (^)
+The bitwise XOR (exclusive OR) operator compares each bit of the first operand to the corresponding bit of the second operand. If the bits are not identical, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+```cpp
+int a = 10;  // Binary: 1010
+int b = 4;   // Binary: 0100
+cout << "(a ^ b) = " << (a ^ b) << endl;  // Outputs 14 (1110 in binary)
+```
+
+### 4. Bitwise Left Shift (<<)
+The bitwise left shift operator moves the bits of the number to the left by the specified number of places. Each shift to the left doubles the number, so shifting a by 2 places results in a22.
+```cpp
+int a = 10;  // Binary: 1010
+cout << "(a << 2) = " << (a << 2) << endl;  // Outputs 40 (101000 in binary)
+```
+
+### 5. Bitwise Right Shift (>>)
+The bitwise right shift operator moves the bits of the number to the right by the specified number of places. Each shift to the right halves the number, so shifting a by 2 places results in a/2/2.
+```cpp
+int a = 10;  // Binary: 1010
+cout << "(a >> 2) = " << (a >> 2) << endl;  // Outputs 2 (10 in binary)
+```
