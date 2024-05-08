@@ -410,3 +410,42 @@ The bitwise right shift operator moves the bits of the number to the right by th
 int a = 10;  // Binary: 1010
 cout << "(a >> 2) = " << (a >> 2) << endl;  // Outputs 2 (10 in binary)
 ```
+
+
+## Increment & Decrement Operators:
+In C++, the increment operator (++) and the decrement operator (--) are used to increase or decrease the value of a variable by 1, respectively.
+
+**There are two types of increment and decrement operators:**
+
+### Prefix (++var or --var): 
+The prefix form first increments or decrements the value of the variable and then returns it.
+### Postfix (var++ or var–): 
+The postfix form first returns the value of the variable and then increments or decrements it.
+
+**Examples:**
+```cpp
+int x = 10;
+
+// Prefix Increment
+++x; // x is now 11
+
+// Postfix Increment
+x++; // x is now 12
+
+// Prefix Decrement
+--x; // x is now 11
+
+// Postfix Decrement
+x--; // x is now 10
+```
+In the case of the `postfix increment` and `decrement` operators, the `value` is changed after the current expression is evaluated. This can lead to `different results` if the `variable` is used in the same `expression`. For example:
+```cpp
+int x = 10;
+int y;
+
+y = x++; // y is 10, x is 11
+
+x = 10; // Reset x
+y = ++x; // y is 11, x is 11
+```
+In the first assignment, y gets the original value of x because the increment happens after the value of x is used. In the second assignment, y gets the incremented value of x because the increment happens before the value of x is used.
