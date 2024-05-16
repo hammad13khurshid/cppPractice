@@ -449,3 +449,18 @@ x = 10; // Reset x
 y = ++x; // y is 11, x is 11
 ```
 In the first assignment, y gets the original value of x because the increment happens after the value of x is used. In the second assignment, y gets the incremented value of x because the increment happens before the value of x is used.
+
+## Overflow:
+ In C++, overflow refers to a situation where a **value** is **computed** that is outside the permissible **range of values** that can be represented by the **data type**. This typically happens when the result of an *arithmetic operation*, such as addition or multiplication, exceeds the maximum **limit** of the data type.
+
+For example, consider an `unsigned char` data type in C++, which can hold values from `0` to `255`. If you try to store a `value` greater than `255` in an `unsigned char`, it will cause an overflow.
+
+```cpp
+char x = 127;
+```
+We assigned a value of `127` to `x`. We have used a int value in `char` to easily understand overflow.
+```cpp
+  x = x + 1;
+```
+The range of `char` is `-128 to 127`. What happens if we add 1 to 127? It can't hold values beyond -128 to 127. Then **overflow** happens.
+This will in simple words trigger the sign bit and make it negative which result in cyclic shift of the value to the lowest range which is -128.
